@@ -1,5 +1,27 @@
-node_modules/
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+build/
+target/
+
+# Dependencies
+.gradle/
+.libs/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```node_modules/
 .next/
 dist/
-build/
-*.log
