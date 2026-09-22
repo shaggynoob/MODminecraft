@@ -1,0 +1,11 @@
+{
+  "type": "shadowsofwar:dual_sword_orc_zombie",
+  "width": 0.6,
+  "height": 1.95,
+  "eye_height": 1.74,
+  "fire_immune": false,
+  "spawn_egg": {
+    "primary_color": "#3A5F0B",
+    "secondary_color": "#CD853F"
+  }
+}

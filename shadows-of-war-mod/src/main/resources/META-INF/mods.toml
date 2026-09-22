@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="shadowsofwar"
+version="1.0.0"
+displayName="Shadows of War Mod"
+authors="TuNombre"
+description='''
+Un mod inspirado en Tierras Medias: Sombras de Guerra.
+Añade orcos/zombies con nombres aleatorios, diferentes clases de combate y estadísticas mejoradas.
+'''
+logoFile="logo.png"
+
+[[dependencies.shadowsofwar]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4.23,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.shadowsofwar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
